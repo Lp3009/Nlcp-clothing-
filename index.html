@@ -1,0 +1,144 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Phoenix Clothing — Student Project</title>
+  <link rel="stylesheet" href="styles.css" />
+</head>
+<body>
+
+<!-- NAVBAR -->
+<nav class="navbar">
+  <div class="logo">
+    PHOENIX <span class="student-badge">Student-Made</span>
+  </div>
+  <div class="menu-toggle" onclick="toggleMenu()">☰</div>
+  <ul class="nav-links" id="navLinks">
+    <li><a href="#problem">Problem</a></li>
+    <li><a href="#solution">Solution</a></li>
+    <li><a href="#why">Why Phoenix</a></li>
+    <li><a href="#products">Products</a></li>
+  </ul>
+</nav>
+
+<!-- HERO -->
+<header class="hero">
+  <div class="phoenix-svg">
+    <svg viewBox="0 0 200 200">
+      <defs>
+        <linearGradient id="fire" x1="0%" y1="0%" x2="0%" y2="100%">
+          <stop offset="0%" stop-color="#FFD700"/>
+          <stop offset="50%" stop-color="#FF4500"/>
+          <stop offset="100%" stop-color="#8B0000"/>
+        </linearGradient>
+      </defs>
+      <path d="M100 20 C40 80 60 140 100 165 C140 140 160 80 100 20 Z"
+            fill="url(#fire)" />
+    </svg>
+  </div>
+  <h1>Phoenix Clothing</h1>
+  <p>Rise Together. Wear with Pride.</p>
+  <p class="student-credit">A student-designed school uniform concept</p>
+</header>
+
+<!-- PROBLEM -->
+<section id="problem" class="fade-in">
+  <h2>The Problem</h2>
+  <p>
+    Traditional school uniforms often feel uncomfortable or outdated,
+    which leads to low participation and reduced school pride.
+  </p>
+</section>
+
+<!-- SOLUTION -->
+<section id="solution" class="fade-in dark">
+  <h2>The Solution</h2>
+  <p>
+    Phoenix Clothing offers a modern, comfortable, and school-approved
+    uniform option designed by students, for students.
+  </p>
+</section>
+
+<!-- WHY PHOENIX -->
+<section id="why" class="fade-in">
+  <h2>Why the Phoenix?</h2>
+  <div class="why-grid">
+    <div>
+      <h3>🔥 Rebirth</h3>
+      <p>Represents growth, improvement, and a fresh start.</p>
+    </div>
+    <div>
+      <h3>🛡 Strength</h3>
+      <p>Symbolizes confidence, resilience, and pride.</p>
+    </div>
+    <div>
+      <h3>🌟 Unity</h3>
+      <p>Unites students under one strong school identity.</p>
+    </div>
+  </div>
+</section>
+
+<!-- PRODUCTS -->
+<section id="products" class="fade-in dark">
+  <h2>Products & Pricing</h2>
+
+  <!-- INDIVIDUAL ITEMS -->
+  <div class="product-grid">
+    <div class="product-card">
+      <h4>Phoenix Shirt</h4>
+      <p class="price">$15</p>
+      <p class="sizes">S • M • L • XL</p>
+      <button class="interest-btn">Order Interest</button>
+    </div>
+
+    <div class="product-card">
+      <h4>Phoenix Sweater</h4>
+      <p class="price">$25</p>
+      <p class="sizes">S • M • L • XL</p>
+      <button class="interest-btn">Order Interest</button>
+    </div>
+
+    <div class="product-card">
+      <h4>Phoenix Hoodie</h4>
+      <p class="price">$30</p>
+      <p class="sizes">S • M • L • XL</p>
+      <button class="interest-btn">Order Interest</button>
+    </div>
+  </div>
+
+  <!-- BUNDLE -->
+  <div class="bundle-card">
+    <span class="best-value">Best Value</span>
+    <h3>Phoenix Bundle</h3>
+    <p>Shirt + Sweater + Hoodie</p>
+    <p class="old-price">$70 Value</p>
+    <p class="bundle-price">$40 Bundle</p>
+    <p class="early-price">$35 Early Supporter Deal</p>
+    <button class="interest-btn">Order Interest</button>
+  </div>
+</section>
+
+<!-- PRICING STRATEGY -->
+<section class="fade-in">
+  <h2>Pricing Strategy</h2>
+  <p>
+    Individual pricing allows flexibility for students, while the bundle
+    encourages value, school unity, and affordability.
+  </p>
+</section>
+
+<!-- CTA -->
+<section class="cta">
+  <h2>Rise With Phoenix</h2>
+  <p>Designed by students. Built for school pride.</p>
+</section>
+
+<!-- FOOTER -->
+<footer>
+  <p>&copy; 2025 Phoenix Clothing — Student-Made School Project</p>
+</footer>
+
+<script src="script.js"></script>
+</body>
+</html>
